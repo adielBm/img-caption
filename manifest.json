@@ -1,0 +1,10 @@
+{
+	"id": "img-caption",
+	"name": "img-caption",
+	"version": "0.1.0",
+	"minAppVersion": "0.1.0",
+	"description": "(experimental) add caption to img based on 'alt' or 'filename'",
+	"author": "adielBm",
+	"authorUrl": "https://github.com/adielBm/obsidian-tex-plugin",
+	"isDesktopOnly": true
+}

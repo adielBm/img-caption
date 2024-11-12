@@ -1,0 +1,31 @@
+/**
+  * Image centering
+  * @source https://www.reddit.com/r/ObsidianMD/comments/v1fs0f/centering_images_in_reading_mode/
+  * Example: ![[image.png | center | 256]] or ![Photo | center | 256](image.png)
+*/
+/*img[alt*="center"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+
+
+/* img centering */
+.image-embed img {
+    max-height: 240px;
+    border-radius: 5px;
+    margin: auto;
+}
+.image-embed {
+    text-align: center;
+}
+
+/* img label based on file-name */
+.image-embed::after {
+    content: attr(data-label);
+    color: var(--text-muted);
+    display: block;
+    text-align: center;
+    font-style: italic;
+}
